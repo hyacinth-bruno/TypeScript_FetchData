@@ -1,7 +1,14 @@
-import React from "react";
+import React from 'react';
+import './App.css';
+import ProductComponent from './components/Product';
 
 function App() {
-  return <div>This is app</div>;
+  return (
+    <div className="App">
+      <h1>Product List</h1>
+      <ProductComponent />
+    </div>
+  );
 }
 
 export default App;
